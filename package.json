@@ -17,10 +17,10 @@
   "author": "Alpha Cephei Inc.",
   "license": "BSD-2-Clause",
   "engines": { "node" : ">=4.2.x" },
-  "devDependencies": {
+  "dependencies": {
     "cmake-js": "^3.1.2"
   },
   "scripts": {
-    "install": "cmake-js compile"
+    "install": "./node_modules/.bin/cmake-js compile"
   }
 }
